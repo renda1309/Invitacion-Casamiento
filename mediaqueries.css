@@ -1,0 +1,6 @@
+@media (min-width: 1000px) {
+  .portada {
+    background-image: url(./imagenes/portada_horizontal.jpg);
+    background-size: cover;
+  }
+}
