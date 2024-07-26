@@ -24,7 +24,7 @@
   gap: 50px;
 }
 .portada img {
-  width: 350px;
+  width: 300px;
 }
 
 .portada h1 {
@@ -189,7 +189,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: #ffc0cb;
+  background-color: #c8a2c8;
   gap: 80px;
   background-size: cover;
   background-position: center;
