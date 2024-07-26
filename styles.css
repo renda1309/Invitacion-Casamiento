@@ -79,7 +79,7 @@
   padding: 300px 0;
 }
 .direccion img {
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .direccion h2 {
@@ -93,7 +93,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 60px;
   text-align: center;
   flex-wrap: wrap;
 }
