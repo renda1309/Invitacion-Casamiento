@@ -215,6 +215,7 @@
   align-content: center;
   gap: 120px;
   position: relative;
+  padding-bottom: 200px;
 
   /* border: 1px solid red; */
 }
