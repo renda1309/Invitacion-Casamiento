@@ -91,6 +91,7 @@
   align-items: center;
   gap: 40px;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .iglesia,
@@ -181,6 +182,11 @@
 
 .nosotros p {
   font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .regalos {
@@ -203,7 +209,7 @@
 
 .regalos p {
   font-size: 20px;
-  max-width: 350px;
+  max-width: 450px;
   text-align: center;
 }
 .datos_bancarios {
@@ -250,4 +256,5 @@ footer {
 
 footer p {
   font-size: 20px;
+  text-align: center;
 }
