@@ -205,6 +205,10 @@
   align-items: center;
 }
 
+.nosotros img {
+  max-width: 80%;
+}
+
 .regalos {
   display: flex;
   flex-direction: column;
