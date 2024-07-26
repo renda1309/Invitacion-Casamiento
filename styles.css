@@ -70,7 +70,6 @@
 .direccion {
   display: flex;
   flex-direction: column;
-  height: 90vh;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -130,7 +129,7 @@
 .regalos a {
   color: aliceblue;
   background: #b89779;
-  padding: 15px 70px;
+  padding: 15px 30px;
   font-size: 14px;
   cursor: pointer;
 }
@@ -209,7 +208,7 @@
 
 .regalos p {
   font-size: 20px;
-  max-width: 450px;
+  max-width: 550px;
   text-align: center;
 }
 .datos_bancarios {
