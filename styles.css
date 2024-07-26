@@ -78,6 +78,9 @@
   height: 130vh;
   padding: 300px 0;
 }
+.direccion img {
+  max-width: 500px;
+}
 
 .direccion h2 {
   font-family: "Dancing Script", cursive;
