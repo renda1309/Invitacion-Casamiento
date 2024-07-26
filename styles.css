@@ -27,6 +27,18 @@
   width: 350px;
 }
 
+.portada h1 {
+  font-family: "dancing script", cursive;
+  font-optical-sizing: auto;
+  font-size: 8rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #a87648;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .portada p {
   font-size: 2rem;
   font-family: "dancing script", cursive;
@@ -146,10 +158,10 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-image: url(./imagenes/direccion.jpg);
+  background-image: url(./imagenes/asistencia.jpg);
   gap: 80px;
   background-size: cover;
-  background-position: center;
+  background-position: left;
 }
 
 .asistencia h3,
@@ -177,7 +189,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: rgb(102, 182, 155);
+  background-color: #ffc0cb;
   gap: 80px;
   background-size: cover;
   background-position: center;
