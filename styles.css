@@ -193,7 +193,7 @@
 .regalos {
   display: flex;
   flex-direction: column;
-  padding: 150px;
+  padding: 150px 40px;
   /* height: 100vh; */
   justify-content: center;
   align-items: center;
@@ -210,7 +210,7 @@
 
 .regalos p {
   font-size: 20px;
-  max-width: 550px;
+  /* max-width: 550px; */
   text-align: center;
 }
 .datos_bancarios {
