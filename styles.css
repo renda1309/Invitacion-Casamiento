@@ -75,6 +75,7 @@
   align-content: center;
   background-color: aliceblue;
   gap: 80px;
+  height: 100vh;
 }
 
 .direccion h2 {
