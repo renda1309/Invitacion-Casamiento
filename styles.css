@@ -308,6 +308,7 @@ footer p {
   justify-content: center;
   align-items: center;
   align-content: center;
+
 }
 
 .inner-counter {
@@ -315,11 +316,10 @@ footer p {
   justify-content: center;
   align-items: center;
   align-content: center;
-  gap: 25px;
+  gap: 20px;
   height: 100px;
   width: 80%;
   margin: 0 auto;
-  border: 1px solid yellowgreen;
   font-size: 50px;
 }
 
