@@ -291,7 +291,7 @@ footer p {
 /* CONTADOR */
 
 .countdown {
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   background: rgb(172, 121, 121);
   display: flex;
@@ -315,7 +315,7 @@ footer p {
   justify-content: center;
   align-items: center;
   align-content: center;
-  gap: 30px;
+  gap: 25px;
   height: 100px;
   width: auto;
   /* border: 1px solid yellowgreen; */
@@ -323,7 +323,7 @@ footer p {
 }
 
 .inner-counter span {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 400;
   /* border: 1px solid blue; */
   border-radius: 20%;
@@ -354,5 +354,5 @@ footer p {
   justify-content: center;
   align-items: center;
   align-content: center;
-  font-size: 20px;
+  font-size: 19px;
 }
