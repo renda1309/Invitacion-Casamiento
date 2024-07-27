@@ -323,7 +323,7 @@ footer p {
 }
 
 .inner-counter span {
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 400;
   /* background: linear-gradient(#b89779, white); */
   border-radius: 50%;
@@ -368,5 +368,5 @@ footer p {
   justify-content: center;
   align-items: center;
   align-content: center;
-  font-size: 17px;
+  font-size: 16px;
 }
