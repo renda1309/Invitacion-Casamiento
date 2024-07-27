@@ -325,18 +325,32 @@ footer p {
 .inner-counter span {
   font-size: 38px;
   font-weight: 400;
-  /* border: 1px solid blue; */
-  border-radius: 20%;
+  /* background: linear-gradient(#b89779, white); */
+  border-radius: 50%;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  -webkit-border-radius: 20%;
-  -moz-border-radius: 20%;
-  -ms-border-radius: 20%;
-  -o-border-radius: 20%;
+  /* border: 3px solid white; */
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
+
+/* #days {
+  padding: 20px 18px;
+}
+
+#minutes,
+#seconds {
+  padding: 20px 25px;
+}
+#hours {
+  /* border: 1px solid blue; */
+  padding: 20px 35px;
+} */
 .counter-box {
   display: flex;
   flex-direction: column;
