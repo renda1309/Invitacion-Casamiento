@@ -288,6 +288,30 @@ footer p {
   text-align: center;
 }
 
+/* BOTONES */
+
+.btn:hover,
+.btn:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgb(167, 98, 98);
+  }
+}
+.btn {
+  color: red;
+  transition: 0.25s;
+
+  &:hover,
+  &:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+
 /* CONTADOR */
 
 .countdown {
