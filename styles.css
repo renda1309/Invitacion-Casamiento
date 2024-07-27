@@ -317,8 +317,9 @@ footer p {
   align-content: center;
   gap: 25px;
   height: 100px;
-  width: auto;
-  /* border: 1px solid yellowgreen; */
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid yellowgreen;
   font-size: 50px;
 }
 
