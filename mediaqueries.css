@@ -3,4 +3,15 @@
     background-image: url(./imagenes/portada_horizontal.jpg);
     background-size: cover;
   }
+
+  .inner-counter {
+    gap: 100px;
+  }
+  .inner-counter span {
+    font-size: 4rem;
+  }
+
+  .inner-counter p {
+    font-size: 2rem;
+  }
 }

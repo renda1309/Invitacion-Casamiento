@@ -257,7 +257,13 @@
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  display: none;
+  /*display: none;
+  */
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%);
+  -moz-transform: translateX(-200%);
+  -ms-transform: translateX(-200%);
+  -o-transform: translateX(-200%);
 }
 #toggle-btn {
   display: none;
@@ -269,6 +275,21 @@
 
 #toggle-btn:checked ~ .datos_bancarios {
   display: flex;
+  transition: all 1s ease;
+  transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+#toggle-btn:checked ~ .datos_bancarios_btn {
+  display: none;
+  color: red;
 }
 
 footer {
@@ -298,16 +319,20 @@ footer p {
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgb(167, 98, 98);
+    box-shadow: 0 0 0 0 #a76262;
   }
 }
 .btn {
-  color: red;
+  color: #a76262;
   transition: 0.25s;
-
-  &:hover,
-  &:focus {
-    border-color: var(--hover);
+  &: ;
+  hover,&: focus;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -ms-transition: 0.25s;
+  -o-transition: 0.25s;
+   {
+    border-color: #a76262;
     color: #fff;
   }
 }
@@ -323,6 +348,22 @@ footer p {
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding: 40px;
+}
+
+.countdown__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.countdown h3 {
+  max-width: 350px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #ffffff;
 }
 
 .container {
