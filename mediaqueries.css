@@ -14,4 +14,25 @@
   .inner-counter p {
     font-size: 2rem;
   }
+  .nosotros {
+    width: 1600px;
+  }
+  .nosotros__imagenes img {
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+  .nosotros__imagenes1:hover,
+  .nosotros__imagenes2:hover,
+  .nosotros__imagenes3:hover,
+  .nosotros__imagenes4:hover,
+  .nosotros__imagenes5:hover,
+  .nosotros__imagenes6:hover {
+    width: 700px;
+    transition: all 1.5s ease;
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+  }
 }
