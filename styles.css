@@ -261,16 +261,11 @@
   padding: 20px 60px;
   max-width: 80%;
   border-radius: 20px;
-  /* display: none; */
+  display: none;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  transform: translateX(-500px);
-  -webkit-transform: translateX(-500px);
-  -moz-transform: translateX(-500px);
-  -ms-transform: translateX(-500px);
-  -o-transform: translateX(-500px);
 }
 #toggle-btn {
   display: none;
@@ -282,21 +277,6 @@
 
 #toggle-btn:checked ~ .datos_bancarios {
   display: flex;
-  transition: all 5s ease;
-  transform: translateX(0px);
-  -webkit-transform: translateX(0px);
-  -moz-transform: translateX(0px);
-  -ms-transform: translateX(0px);
-  -o-transform: translateX(0px);
-  -webkit-transition: all 5s ease;
-  -moz-transition: all 5s ease;
-  -ms-transition: all 5s ease;
-  -o-transition: all 5s ease;
-}
-
-#toggle-btn:checked ~ .datos_bancarios_btn {
-  display: none;
-  color: red;
 }
 
 footer {
@@ -450,7 +430,7 @@ footer p {
   background: linear-gradient(-45deg, #d4a090, #ac768a, #8fc9df, #649287);
   background-size: 400% 400%;
   animation: gradient 10s ease-out infinite;
-  height: 40vh;
+  height: 50vh;
   -webkit-animation: gradient 10s ease-out infinite;
 }
 
