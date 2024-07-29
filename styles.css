@@ -52,7 +52,7 @@
 
 .audio {
   display: flex;
-  position: absolute;
+  position: fixed;
   top: 50px;
   right: 10px;
   max-width: 100px;
