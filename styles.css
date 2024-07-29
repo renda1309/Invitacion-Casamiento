@@ -22,7 +22,7 @@
   align-content: center;
   background-image: url(./imagenes/portada.jpg);
   background-position: top;
-
+  position: relative;
   gap: 50px;
 }
 .portada img {
@@ -48,6 +48,14 @@
   font-weight: 500;
   font-style: normal;
   color: #a87648;
+}
+
+.audio {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  max-width: 100px;
 }
 
 .frase {
@@ -253,17 +261,16 @@
   padding: 20px 60px;
   max-width: 80%;
   border-radius: 20px;
+  /* display: none; */
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  /*display: none;
-  */
-  transform: translateX(-200%);
-  -webkit-transform: translateX(-200%);
-  -moz-transform: translateX(-200%);
-  -ms-transform: translateX(-200%);
-  -o-transform: translateX(-200%);
+  transform: translateX(-500px);
+  -webkit-transform: translateX(-500px);
+  -moz-transform: translateX(-500px);
+  -ms-transform: translateX(-500px);
+  -o-transform: translateX(-500px);
 }
 #toggle-btn {
   display: none;
@@ -275,16 +282,16 @@
 
 #toggle-btn:checked ~ .datos_bancarios {
   display: flex;
-  transition: all 1s ease;
+  transition: all 5s ease;
   transform: translateX(0px);
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
   -o-transform: translateX(0px);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
+  -webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -ms-transition: all 5s ease;
+  -o-transition: all 5s ease;
 }
 
 #toggle-btn:checked ~ .datos_bancarios_btn {
