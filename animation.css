@@ -27,3 +27,17 @@
   animation: translateX, animation_bank 2s;
   -webkit-animation: translateX, animation_bank 2s;
 }
+
+.nosotros__imagenes1:hover,
+.nosotros__imagenes2:hover,
+.nosotros__imagenes3:hover,
+.nosotros__imagenes4:hover,
+.nosotros__imagenes5:hover,
+.nosotros__imagenes6:hover {
+  max-width: 400px;
+  transition: all 2s ease;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  -o-transition: all 2s ease;
+}

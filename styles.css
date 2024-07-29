@@ -200,7 +200,7 @@
   align-items: center;
   align-content: center;
   background-color: #d6b1b7;
-  gap: 80px;
+  gap: 60px;
   background-size: cover;
   background-position: center;
   /* border: 1px solid red; */
@@ -215,8 +215,33 @@
   align-items: center;
 }
 
-.nosotros img {
+.infinito {
   max-width: 80%;
+}
+
+.nosotros__imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 60px;
+}
+
+.nosotros__imagenes1,
+.nosotros__imagenes2,
+.nosotros__imagenes3,
+.nosotros__imagenes4,
+.nosotros__imagenes5,
+.nosotros__imagenes6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 200px;
+  cursor: pointer;
 }
 
 .regalos {
