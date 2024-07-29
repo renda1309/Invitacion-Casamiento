@@ -23,3 +23,7 @@ clock();
 setInterval(() => {
   clock();
 }, 1000);
+
+function PlayAudio() {
+  document.getElementById("music").play();
+}

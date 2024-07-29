@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="./mediaqueries.css" />
     <link rel="stylesheet" href="./animation.css" />
   </head>
-  <body>
+  <body onclick="PlayAudio()">
     <main>
       <section class="portada">
         <img src="./imagenes/Dana_y_gabriel.png" alt="Dana y gabriel" />
         <p>¡Nos Casamos!</p>
-        <audio controls autoplay loop src="./Shallow.mp3" class="audio"></audio>
+        <audio autoplay controls loop class="audio" id="music">
+          <source src="./Shallow.mp3" type="audio/mpeg" />
+        </audio>
       </section>
 
       <section class="frase">
