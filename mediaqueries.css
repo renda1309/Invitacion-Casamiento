@@ -24,15 +24,16 @@
   }
 
   .nosotros__imagenes {
-    max-width: 1600px;
+    max-width: 1400px;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     /* border: 1px solid red; */
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0 auto;
-    padding-left: 60px;
+    /* padding-left: 60px; */
   }
   .nosotros__imagenes img {
     max-width: 350px;
@@ -53,10 +54,10 @@
   .nosotros__imagenes5:hover,
   .nosotros__imagenes6:hover {
     width: 600px;
-    transition: all 2.3s;
-    -webkit-transition: all 2.3s;
-    -moz-transition: all 2.3s;
-    -ms-transition: all 2.3s;
-    -o-transition: all 2.3s;
+    transition: all 3s ease;
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
   }
 }
